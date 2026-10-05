@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Echoes of My First Love — A Novel by Yusuf</title>
+<meta name="description" content="Some people leave your life, but never leave your story. Read Echoes of My First Love, a novel by Yusuf, free — no account required.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css?v=3">
+<link rel="icon" type="image/webp" href="/assets/cover.webp">
+</head>
+<body>
+
+<!-- ============ GLOBAL HEADER ============ -->
+<header class="site-header" id="siteHeader">
+  <a class="brand" href="#top" aria-label="Echoes of My First Love — home">
+    <span class="brand-mark" aria-hidden="true">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none"><path d="M12 3c-2.4 2-2.4 5.4 0 7.4 2.4-2 2.4-5.4 0-7.4Z" fill="currentColor" opacity=".9"/><path d="M12 10.4c-1.6 6.6-6.6 8.4-9 9 2-3.4 5-6.4 9-9Zm0 0c1.6 6.6 6.6 8.4 9 9-2-3.4-5-6.4-9-9Z" fill="currentColor" opacity=".75"/></svg>
+    </span>
+    <span class="brand-name">Echoes <em>of My First Love</em></span>
+  </a>
+  <nav class="site-nav" aria-label="Primary">
+    <a href="#story">The Story</a>
+    <a href="#read">Read</a>
+    <a href="#author">Author</a>
+    <button class="nav-cta" data-open-book>Read the Book</button>
+  </nav>
+</header>
+
+<!-- ============ HERO ============ -->
+<main id="top">
+<section class="hero" id="hero" aria-label="Echoes of My First Love">
+  <div class="hero-env" aria-hidden="true">
+    <div class="sky-layer sky-far" data-parallax="0.35"></div>
+    <div class="sky-layer sky-mid" data-parallax="0.6"></div>
+    <div class="hills hills-far">
+      <svg viewBox="0 0 1440 220" preserveAspectRatio="none" aria-hidden="true"><path d="M0,190 C180,120 340,150 520,130 C700,110 840,160 1000,140 C1160,120 1300,170 1440,150 L1440,220 L0,220 Z" fill="var(--hill-far)"/></svg>
+    </div>
+    <div class="hills hills-near" data-parallax="0.9">
+      <svg viewBox="0 0 1440 260" preserveAspectRatio="none" aria-hidden="true"><path d="M0,200 C220,140 420,190 640,170 C860,150 1080,200 1440,170 L1440,260 L0,260 Z" fill="var(--hill-near)"/></svg>
+      <svg class="hill-tree" viewBox="0 0 200 240" aria-hidden="true">
+        <path d="M96 240 C98 190 92 160 80 130 M80 130 C60 110 40 108 22 96 M80 130 C96 108 118 104 140 92 M80 130 C88 118 92 100 90 84" stroke="var(--trunk)" stroke-width="7" fill="none" stroke-linecap="round"/>
+        <ellipse cx="24" cy="86" rx="26" ry="20" fill="var(--canopy)" opacity=".9"/>
+        <ellipse cx="142" cy="84" rx="30" ry="22" fill="var(--canopy)" opacity=".85"/>
+        <ellipse cx="88" cy="66" rx="34" ry="24" fill="var(--canopy2)"/>
+        <ellipse cx="106" cy="52" rx="22" ry="16" fill="var(--canopy2)" opacity=".9"/>
+      </svg>
+    </div>
+    <div class="haze"></div>
+    <div class="grain"></div>
+    <div class="light-shaft"></div>
+  </div>
+
+  <div class="hero-stage" id="heroStage">
+    <div class="hero-copy">
+      <p class="hero-kicker">A novel by Yusuf</p>
+      <h1 class="hero-title">
+        <span class="title-line">Echoes</span>
+        <span class="title-line title-line-2">of My First Love</span>
+      </h1>
+      <p class="hero-sub">A story about first love, growing up,<br>and the memories that remain.</p>
+      <div class="hero-actions">
+        <button class="btn-glass" data-open-book>
+          <span>Read the Book</span><span class="arrow" aria-hidden="true">→</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- ORBITAL MEMORY SYSTEM -->
+    <div class="orbit-wrap" id="orbitWrap" aria-hidden="true">
+      <div class="orbit-fragments" id="orbit"></div>
+    </div>
+
+    <!-- CENTRAL 3D BOOK -->
+    <div class="book-anchor" id="bookAnchor">
+      <button class="book3d" id="book3d" data-open-book aria-label="Open Echoes of My First Love">
+        <div class="book-shadow" aria-hidden="true"></div>
+        <div class="book-body" aria-hidden="true">
+          <div class="book-face book-front">
+            <img src="/assets/cover.webp" alt="" width="360" height="540" draggable="false">
+          </div>
+          <div class="book-face book-spine">
+            <span class="spine-text">ECHOES OF MY FIRST LOVE · YUSUF</span>
+          </div>
+          <div class="book-face book-pages-edge"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+          <div class="book-face book-back"><div class="back-plate"></div></div>
+        </div>
+        <div class="book-halo" aria-hidden="true"></div>
+      </button>
+    </div>
+
+    <p class="hero-scrollcue" aria-hidden="true"><span></span>Scroll to remember</p>
+  </div>
+</section>
+
+<!-- ============ SECTION 1 — THE STORY ============ -->
+<section class="section section-story" id="story">
+  <div class="section-inner">
+    <p class="eyebrow">The Story</p>
+    <h2 class="display">Every love story leaves<br><em>an echo.</em></h2>
+    <p class="lede">Inaya Hassan. A laugh in a crowded classroom, a schoolyard under a mango tree, a name repeated quietly in the dark so it would never be forgotten. This is Ayaan’s story of the girl who left his life — and never left his memory.</p>
+    <ul class="theme-line" aria-label="Themes">
+      <li>Memory</li><li>First Love</li><li>Childhood</li><li>Friendship</li><li>Rejection</li><li>Letting Go</li><li>Time</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ SECTION 2 — ENTER THE BOOK ============ -->
+<section class="section section-enter" id="read">
+  <div class="section-inner enter-grid">
+    <div class="enter-copy">
+      <p class="eyebrow">Enter the Book</p>
+      <h2 class="display-sm">Read the entire novel,<br><em>free.</em></h2>
+      <p class="body-copy">The whole novel — prologue, six chapters and the epilogue — is here. Open it like a real book and turn the pages yourself. No account. No payment. Nothing to sign up for.</p>
+      <button class="btn-glass btn-lg" data-open-book><span>Open the Book</span><span class="arrow" aria-hidden="true">→</span></button>
+    </div>
+    <div class="enter-book">
+      <button class="mini-book" data-open-book aria-label="Open the book">
+        <img src="/assets/cover.webp" alt="Echoes of My First Love — book cover" width="300" height="450" loading="lazy" draggable="false">
+      </button>
+      <div class="mini-glow" aria-hidden="true"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SECTION 3 — THE READING EXPERIENCE ============ -->
+<section class="section section-reader-demo" id="experience">
+  <div class="section-inner">
+    <p class="eyebrow">The Reading Experience</p>
+    <h2 class="display-sm">A book that turns<br><em>its own pages.</em></h2>
+    <div class="spread-demo" id="spreadDemo" aria-hidden="true">
+      <div class="demo-spread">
+        <div class="demo-page demo-page-l" id="demoL"></div>
+        <div class="demo-spine"></div>
+        <div class="demo-page demo-page-r" id="demoR"></div>
+        <div class="demo-leaf" id="demoLeaf"></div>
+      </div>
+    </div>
+    <p class="demo-caption">Arrow keys or a tap turn the page. The story remembers where you left off.</p>
+  </div>
+</section>
+
+<!-- ============ SECTION 4 — ECHOES (QUOTES / CHAPTERS) ============ -->
+<section class="section section-chapters" id="chapters">
+  <div class="section-inner">
+    <p class="eyebrow">The Chapters</p>
+    <div class="chapter-list" id="chapterList"></div>
+  </div>
+</section>
+
+<!-- ============ SECTION 5 — AUTHOR ============ -->
+<section class="section section-author" id="author">
+  <div class="section-inner author-grid">
+    <div class="author-card">
+      <div class="author-mono" aria-hidden="true">Y</div>
+      <p class="eyebrow">The Author</p>
+      <h2 class="display-sm">Yusuf</h2>
+      <p class="body-copy">Yusuf writes from memory — school corridors, break-time laughter, the small moments that turn out to shape a life. <em>Echoes of My First Love</em> is his first novel.</p>
+      <div class="author-contact" id="authorContact">
+        <a class="contact-link" href="#author" id="contactPlaceholder" hidden>Contact Yusuf</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SECTION 6 — FINAL MEMORY ============ -->
+<section class="section section-final" id="final">
+  <div class="final-env" aria-hidden="true">
+    <div class="final-sky"></div>
+    <svg class="final-tree" viewBox="0 0 600 420" aria-hidden="true">
+      <path d="M300 420 C310 340 290 300 250 250 M250 250 C200 220 150 218 90 196 M250 250 C300 210 360 205 430 182 M250 250 C280 225 296 185 288 150" stroke="var(--trunk)" stroke-width="12" fill="none" stroke-linecap="round"/>
+      <ellipse cx="95" cy="182" rx="80" ry="56" fill="var(--canopy)" opacity=".85"/>
+      <ellipse cx="438" cy="172" rx="96" ry="62" fill="var(--canopy)" opacity=".8"/>
+      <ellipse cx="290" cy="128" rx="100" ry="64" fill="var(--canopy2)"/>
+      <ellipse cx="356" cy="96" rx="60" ry="40" fill="var(--canopy2)" opacity=".9"/>
+      <circle cx="216" cy="128" r="9" fill="var(--mango)"/><circle cx="332" cy="152" r="8" fill="var(--mango)"/><circle cx="404" cy="212" r="9" fill="var(--mango)"/>
+    </svg>
+    <div class="final-grain"></div>
+  </div>
+  <div class="section-inner final-inner">
+    <p class="eyebrow">The Final Memory</p>
+    <blockquote class="final-quote">“Some people leave your life…<br>but never really leave your story.”</blockquote>
+    <p class="final-note">— from the epilogue, <em>What Remained</em></p>
+    <button class="btn-glass btn-lg" data-open-book><span>Begin Reading Again</span><span class="arrow" aria-hidden="true">→</span></button>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <p><em>Echoes of My First Love</em> — a novel by Yusuf. Read free, always.</p>
+</footer>
+</main>
+
+<!-- ============ READER OVERLAY ============ -->
+<div class="reader" id="reader" role="dialog" aria-modal="true" aria-label="Book reader" hidden>
+  <div class="reader-env" aria-hidden="true"></div>
+
+  <div class="reader-chrome reader-chrome-top" id="readerTop">
+    <button class="chrome-btn" id="readerBack">← Back</button>
+    <div class="chrome-right">
+      <a class="chrome-btn" href="/book.pdf" download>Download</a>
+      <button class="chrome-btn" id="soundToggle" aria-pressed="false" aria-label="Toggle sound">Sound: Off</button>
+    </div>
+  </div>
+
+  <div class="reader-stage" id="readerStage">
+    <div class="reader-book" id="readerBook">
+      <div class="reader-left-half"></div>
+      <div class="reader-spine"></div>
+      <div class="reader-right-half"></div>
+      <div class="reader-leaf" id="readerLeaf"></div>
+      <div class="reader-cover-left" id="coverLeft"><div class="cover-inner"><img src="/assets/cover.webp" alt="" width="300" height="450"></div></div>
+      <div class="reader-cover-right" id="coverRight"><div class="cover-inner"></div></div>
+    </div>
+    <div class="reader-page-tap reader-tap-prev" id="tapPrev" aria-hidden="true"></div>
+    <div class="reader-page-tap reader-tap-next" id="tapNext" aria-hidden="true"></div>
+  </div>
+
+  <div class="reader-chrome reader-chrome-bottom" id="readerBottom">
+    <button class="chrome-btn" id="readerPrev">← Previous</button>
+    <div class="reader-progress"><span id="progressLabel"></span><span id="progressPct"></span></div>
+    <button class="chrome-btn" id="readerNext">Next →</button>
+  </div>
+
+  <div class="reader-menu" id="readerMenu" hidden>
+    <div class="menu-head">Contents</div>
+    <ul id="menuList"></ul>
+  </div>
+</div>
+
+<div class="transition-veil" id="transitionVeil" aria-hidden="true"></div>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Book","name":"Echoes of My First Love","author":{"@type":"Person","name":"Yusuf"},"inLanguage":"en","abstract":"Some people leave your life, but never leave your story."}
+</script>
+<script src="/js/audio.js?v=3" defer></script>
+<script src="/js/orbit.js?v=3" defer></script>
+<script src="/js/book.js?v=3" defer></script>
+</body>
+</html>
